@@ -1,0 +1,27 @@
+.requests{
+    padding: 0 20px;
+
+}
+
+.request-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.request-title h4{
+    color: #b6b9bc;
+}
+
+h4.request-number{
+    width: 23px;
+    height: 23px;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-right: 10px;
+}

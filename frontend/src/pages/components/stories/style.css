@@ -1,0 +1,14 @@
+.stories{
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 620px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+
+
+.list{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: #b6b9bc;
+}

@@ -1,0 +1,252 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.register,
+.login {
+  margin: 10vh auto;
+  width: 82vw;
+  height: 83vh;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(36, 35, 35, 0.6);
+  display: flex;
+}
+
+.register-cover {
+  background-image: url("../public/1.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.register-content {
+  width: 50%;
+  text-align: center;
+}
+
+.form-group {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.row {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  gap: 10px;
+}
+.form-group label {
+  margin: 5px 0;
+  text-align: left;
+  font-size: 1rem;
+}
+.input,
+textarea {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.signup,
+.signin {
+  background-color: black;
+  color: white;
+}
+
+.signup:hover,
+.signin:hover {
+  cursor: pointer;
+  background-color: rgb(45, 40, 40);
+  color: white;
+}
+
+
+/* =================  Login  ==================*/
+
+.login-cover{
+  background-image: url(../public/login.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.login-content{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+/* =================================== 404 Page ============================== */
+
+.page-404 {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.not-found-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-image {
+  background: url('../public/404page.jpg') center/cover no-repeat;
+  width: 100%;
+  height: 410px; /* Ajustez la hauteur selon vos besoins */
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.not-found-content h1 {
+  color: #ff6200; /* Utilisation d'une couleur rouge pour attirer l'attention */
+  font-size: 3em;
+  margin-top: 13px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.not-found-content p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.home-link-404 {
+  text-decoration: none;
+}
+
+.home-button-404 {
+  background-color: #deb500;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  margin-top: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button-404:hover {
+  background-color: #deb500;
+}
+
+
+
+
+/*===================== Home =============================*/
+
+.layout-app{
+  display: flex;
+  margin-left: 45px;
+  margin-right: 40px;
+
+}
+
+
+
+
+
+
+/*================ First Page ======================*/
+
+
+.firstpage-container {
+
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.firstpage-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute; /* Pour que la vidéo soit en arrière-plan */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.firstpage-title {
+  color: white;
+  font-size: 3.3em;
+  margin-bottom: 50px;
+}
+
+.firstpage-description {
+  color: #ccc;
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 110px;
+  font-size: 18px;
+}
+
+.firstpage-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.firstpage-button {
+  background-color: #036682;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.firstpage-button:hover {
+  background-color: #690000;
+}
+
+.firstpage-title:hover {
+  color: #ac0404;
+}
+
+.firstpage-description:hover {
+  color: #eeeeee;
+}

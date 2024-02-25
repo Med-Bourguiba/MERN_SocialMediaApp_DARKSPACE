@@ -1,0 +1,73 @@
+.newpost{
+    max-width: 600px;
+    margin: 10px;
+    color: black;
+    box-shadow: 0 1px 6px -3.5px #000000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.newpost-details{
+    display: flex;
+    width: 100% ;
+}
+
+.newpost-textbox{
+    width: 100%;
+}
+
+.newpost-textbox textarea{
+    line-height: 1.5;
+    font-size: 14px;
+    border: 1px solid rgb(255,255,255);
+    padding: 10px;
+    width: 100%;
+}
+
+.newpost-textbox ::placeholder{
+    color: rgb(145,142,142);
+}
+
+.newpost-textbox :focus{
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.newpost-profil-image{
+    width: 48px;
+    height: 45px;
+    background-color: orangered;
+    border-radius: 6px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.newpost-profil-image img{
+    object-fit: cover;
+    width: 48px;
+    height: 45px;
+}
+
+.newpost-button{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.newpost-button button{
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.newpost-button button:hover{
+    background-color: rgb(62, 62, 229);
+}

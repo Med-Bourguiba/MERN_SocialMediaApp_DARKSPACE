@@ -1,0 +1,107 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    box-shadow: 0px 1px 4.5px #acb7c4;
+    margin-bottom: 11px;
+}
+
+.navbar-right{
+    
+    display: flex;
+    gap: 10px;
+    margin-right: 25px;
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    
+   
+}
+
+.navbar-left-logo {
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-image: url('./logoApp.jpg');
+    background-size: cover; /* Assurez-vous que l'image couvre toute la zone */
+  }
+
+
+.navbar-left b{
+    color: #1877f2;
+    font-size: 1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.navbar-profil-search{
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 350px;
+    background-color: #ededed;
+    border-radius: 7px;
+    padding-left: 8px;
+}
+
+.navbar-profil-search input{
+    margin-left: 6px;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-profil-search input:focus{
+    outline: transparent;
+}
+
+.navbar-profil-search input::placeholder{
+    border: none;
+    color: #acb7c4;
+    font-size: 14px;
+}
+
+.gray{
+    color: #acb7c4;
+}
+.small{
+    font-size: 14px;
+}
+
+
+.navbar-profil-button{
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 8px;
+    height: 43px;
+    width: 95px;
+    padding: 8px;
+    margin-left: 8px;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+.navbar-profil-button:hover{
+    border: 1px solid #0258c9;
+    background-color: #025bd0;
+}
+
+.navbar-profil-image{
+    overflow: hidden;
+    width: 42px;
+    height: 42px;
+    background-color: orangered;
+    border-radius: 8px;
+}
+
+.navbar-profil-image img{
+    width: 100%
+    
+}
